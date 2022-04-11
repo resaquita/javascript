@@ -1,0 +1,332 @@
+@media only screen and (max-width: 1320px){
+  .div_about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  #music_soundcloud_p{
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1190px){
+    .index_banner h1{
+      font-size: 70px;
+    }
+}
+@media only screen and (max-width: 1150px){
+  .div_about{
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .h1_main{
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  nav{
+    padding: 35px;
+  }
+  footer p{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1018px){
+  .div_about{
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  #music_soundcloud_p{
+    font-size: 22px;
+  }
+}  
+@media only screen and (max-width: 991px){
+  .video2{
+    padding: 20px;
+  }
+  .iframe_music{
+    width: 100%;
+    height: 400px;
+  }
+  .soundcloud{
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .sec_about{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 50px;
+  }
+  #bvideo{
+    width: 100%;
+    object-fit: fill;
+  }
+  .h1_main{
+    text-align: center;
+    margin: auto;
+    padding-left: 0;
+  }
+  .div_about{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  .sec_calculator p{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+  }
+  .logomb{
+    width: 350px;
+  }
+  .index_banner{
+    height: 110px;
+    }
+  .index_banner h1{
+    font-size: 50px;
+    line-height: 110px;
+  }
+}
+@media only screen and (max-width: 800px){
+  nav{
+    padding: 10px;
+    padding-right: 30px;
+  }
+  .menu_img{
+    height: 35px;
+    width: 30px;
+  }
+  #contact_form{
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 801px){
+  .logomb{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 768px){
+  nav ul li a{
+    font-size: 17px;
+  }
+  .about_article{
+    font-size: 20px;
+  }
+  .iframe_music{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 712px){
+  .sec_about{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 30px;
+  }
+  .div_about{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  #music_soundcloud_p{
+    font-size: 18px;
+  }
+  .logomb{
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 665px){
+  .logomb{
+    width: 250px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  .index_banner{
+    height: 116px;
+    }
+  .index_banner h1{
+      line-height: 58px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 570px){
+  #main_calculator p {
+    font-size: 18px;
+  }
+  #contact_form{
+    background-color: white;
+  }
+  .iframe_music{
+    width: 100%;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 506px){
+  .sec_calculator p{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+  }
+  #music_section_reviews{
+    font-size: 15px;
+  }
+  .music_reviews{
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px;
+  }
+  #theform {
+    padding: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 494px){
+  #music_soundcloud_p{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 492px){
+  .header1{
+    width: 100%;
+  }  
+}
+@media only screen and (max-width: 480px){
+  nav{
+    padding: 5px;
+  }
+  .menu_img{
+    height: 20px;
+    width: 20px;
+  }
+  .header2{
+    height: 85px;
+  }
+}
+@media only screen and (max-width: 472px){
+  .sec_about{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 25px;
+  }
+  .h1_main{
+    font-size: 40px;
+  }
+  .div_about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  #music_soundcloud_p{
+    font-size: 15px;
+  }
+  #theform {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #666;
+    box-shadow: inset 0 0 20px #999, 3px 3px 3px #666;
+  }
+  section button {
+    width: 180px;
+    padding: 10px 8px;
+  }
+  #index_section_contactnow-p {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  #contact_form {
+    font-size: 15px;
+  }
+  .video2 {
+    padding: 0px;
+  }
+  .video1 {
+    padding: 0px;
+  }
+  .soundcloud {
+    height: 280px;
+  }
+  .index_banner{
+    height: 80px;
+  }
+  .index_banner h1{
+    font-size: 40px;
+      line-height: 40px;
+  }
+}
+@media only screen and (max-width: 400px){
+  #theform {
+    padding: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 260px;
+  }
+  #music_soundcloud_p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 382px) {
+  #img_about {
+    height: 220px;
+    text-align: center;
+  }
+  .sec_about {
+    gap: 15px;
+  }
+  .h1_main {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  nav {
+    padding: 5px;
+  }
+  .menu_img {
+    height: 20px;
+    width: 20px;
+  }
+  .logomb {
+    width: 220px;
+  }
+  #music_soundcloud_p {
+    font-size: 14px;
+  }
+  .index_banner{
+    height: 80px;
+    }
+  .index_banner h1{
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 334px) {
+  .index_but {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .index_container {
+    padding-top: 0px !important;
+  }
+  .logomb {
+    width: 200px;
+  }
+  .iframe_music {
+    width: 100%;
+    height: 180px;
+  }
+  .soundcloud {
+    height: 220px;
+  }
+}

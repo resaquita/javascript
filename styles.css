@@ -1,0 +1,775 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#paragraph, .about_article, #main_about h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-align-last: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.product img:hover {
+  opacity: 0.9;
+}
+
+/* ----------INDEX START----------- */
+#bvideo {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.index_banner {
+  text-align: center;
+  position: relative;
+  top: -40vw;
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.index_banner h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-shadow: 1px 3px 10px black;
+  line-height: 200px;
+}
+
+body {
+  background-color: white;
+}
+
+#main_index {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main_index-div {
+  height: 55vw;
+}
+
+#index_section_contactnow {
+  background-color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+#index_section_contactnow div {
+  padding: 20px;
+}
+
+#index_section_contactnow-p, #index_section_contactnow p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+#index_section_contactnow p {
+  margin-bottom: 0 !important;
+}
+
+section button a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+section button a:hover {
+  color: #7a406f !important;
+}
+
+section button {
+  width: 200px;
+  height: 55px;
+  padding: 10px 10px;
+  text-align: center;
+  border: 2px solid black !important;
+}
+
+.contact_button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-color: #f0f0f0;
+}
+
+.link {
+  text-decoration: underline;
+  color: #7a406f;
+}
+
+.link:hover {
+  color: #830a2b;
+}
+
+/* ----------INDEX END----------- */
+/* -------------------HEADER START-------------- */
+.header1 {
+  width: 100%;
+}
+
+.logomb:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav {
+  background-color: #120f26;
+}
+
+nav ul li a {
+  font-size: 20px;
+  color: white !important;
+}
+
+nav ul li a:hover {
+  color: #b1b1b1 !important;
+}
+
+/* -------------------HEADER END-------------- */
+/* -------------------FOOTER START-------------- */
+.footer1 {
+  background-color: rgba(0, 18, 182, 0.03);
+  margin-top: 30px;
+}
+
+.footer2 {
+  background-color: #120f26;
+  color: #fff;
+}
+
+/* -------------------FOOTER END-------------- */
+/* -------------------ABOUT.HTML START-------------- */
+.h1_main {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  text-shadow: 1px 3px 10px gray;
+  font-size: 70px;
+  width: 80%;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-bottom: 30px;
+  padding-right: 0;
+  color: #830a2b;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.about_article {
+  font-size: 25px;
+}
+
+.div_about {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#main_about h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#img_about {
+  border: 3px solid black;
+  border-radius: 3%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  height: auto;
+}
+
+/* -------------------ABOUT.HTML END-------------- */
+/* -------------------MUSIC.HTML START-------------- */
+.video1 {
+  padding: 20px;
+}
+
+.music_row {
+  margin-bottom: 30px !important;
+}
+
+#music_soundcloud_p {
+  font-size: 30px;
+  text-align: justify;
+  overflow-wrap: break-word;
+  padding: 10px;
+}
+
+#music_section_reviews {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.music--review1 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #8db1eb;
+}
+
+.music--review2 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #7ba5e8;
+}
+
+.music--review3 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #588de2;
+}
+
+.music--review4 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #3a79dd;
+}
+
+/* -------------------MUSIC.HTML END-------------- */
+/* -------------------CALCULATOR.HTML START-------------- */
+#theform {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #666;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #666;
+  -webkit-box-shadow: inset 0 0 20px #999,3px 3px 3px #666;
+          box-shadow: inset 0 0 20px #999,3px 3px 3px #666;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.calculator_text {
+  text-align: center;
+  padding: 20px;
+}
+
+.sec_calculator p {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 50px;
+}
+
+.calculator_form {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sec_calculator a {
+  text-decoration: none;
+}
+
+#theform div {
+  margin: 5px 0;
+}
+
+#theform label {
+  display: inline-block;
+  width: 200px;
+}
+
+#main_calculator p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#main_calculator h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+/* -------------------CALCULATOR.HTML END-------------- */
+/* -------------------CONTACT.HTML START-------------- */
+#contact_form {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 8%;
+  background-color: #e7e7e7;
+}
+
+.btn-contact, .btn-form {
+  margin-top: 10px;
+  background-color: #830a2b !important;
+  border: #120f26;
+  border-radius: 5px;
+  color: white !important;
+  padding: 3px;
+  font-size: 25px !important;
+}
+
+.btn-form {
+  font-size: 15px !important;
+}
+
+.btn-contact:hover, .btn-form:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.form-check-input:checked {
+  background-color: #830a2b !important;
+}
+
+form label {
+  font-weight: bold;
+}
+
+/* -------------------CONTACT.HTML END-------------- */
+@media only screen and (max-width: 1320px) {
+  .div_about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  #music_soundcloud_p {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .index_banner h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .div_about {
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .h1_main {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    padding: 35px;
+  }
+  footer p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1018px) {
+  .div_about {
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  #music_soundcloud_p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .video2 {
+    padding: 20px;
+  }
+  .iframe_music {
+    width: 100%;
+    height: 400px;
+  }
+  .soundcloud {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sec_about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 10px;
+    gap: 50px;
+  }
+  #bvideo {
+    width: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .h1_main {
+    text-align: center;
+    margin: auto;
+    padding-left: 0;
+  }
+  .div_about {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  .sec_calculator p {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+  }
+  .logomb {
+    width: 350px;
+  }
+  .index_banner {
+    height: 110px;
+  }
+  .index_banner h1 {
+    font-size: 50px;
+    line-height: 110px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    padding: 10px;
+    padding-right: 30px;
+  }
+  .menu_img {
+    height: 35px;
+    width: 30px;
+  }
+  #contact_form {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  .logomb {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul li a {
+    font-size: 17px;
+  }
+  .about_article {
+    font-size: 20px;
+  }
+  .iframe_music {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 712px) {
+  .sec_about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 10px;
+    gap: 30px;
+  }
+  .div_about {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  #music_soundcloud_p {
+    font-size: 18px;
+  }
+  .logomb {
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .logomb {
+    width: 250px;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+  .index_banner {
+    height: 116px;
+  }
+  .index_banner h1 {
+    line-height: 58px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  #main_calculator p {
+    font-size: 18px;
+  }
+  #contact_form {
+    background-color: white;
+  }
+  .iframe_music {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  .sec_calculator p {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+  }
+  #music_section_reviews {
+    font-size: 15px;
+  }
+  .music_reviews {
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px;
+  }
+  #theform {
+    padding: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  #music_soundcloud_p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .header1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    padding: 5px;
+  }
+  .menu_img {
+    height: 20px;
+    width: 20px;
+  }
+  .header2 {
+    height: 85px;
+  }
+}
+
+@media only screen and (max-width: 472px) {
+  .sec_about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 10px;
+    gap: 25px;
+  }
+  .h1_main {
+    font-size: 40px;
+  }
+  .div_about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  #music_soundcloud_p {
+    font-size: 15px;
+  }
+  #theform {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #666;
+    -webkit-box-shadow: inset 0 0 20px #999, 3px 3px 3px #666;
+            box-shadow: inset 0 0 20px #999, 3px 3px 3px #666;
+  }
+  section button {
+    width: 180px;
+    padding: 10px 8px;
+  }
+  #index_section_contactnow-p, #index_section_contactnow p {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  #contact_form {
+    font-size: 15px;
+  }
+  .video2 {
+    padding: 0px;
+  }
+  .video1 {
+    padding: 0px;
+  }
+  .soundcloud {
+    height: 280px;
+  }
+  .index_banner {
+    height: 80px;
+  }
+  .index_banner h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #theform {
+    padding: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 260px;
+  }
+  #music_soundcloud_p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 382px) {
+  #img_about {
+    height: 220px;
+    text-align: center;
+  }
+  .sec_about {
+    gap: 15px;
+  }
+  .h1_main {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  nav {
+    padding: 5px;
+  }
+  .menu_img {
+    height: 20px;
+    width: 20px;
+  }
+  .logomb {
+    width: 220px;
+  }
+  #music_soundcloud_p {
+    font-size: 14px;
+  }
+  .index_banner {
+    height: 80px;
+  }
+  .index_banner h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  .index_but {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .index_container {
+    padding-top: 0px !important;
+  }
+  .logomb {
+    width: 200px;
+  }
+  .iframe_music {
+    width: 100%;
+    height: 180px;
+  }
+  .soundcloud {
+    height: 220px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

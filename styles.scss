@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  $color1: #830a2b;
+  $color2: #7a406f;
+  $color3: #2d488f;
+  $color4: #91b4ec;
+  $color5: #120f26;
+  $height: 200px;
+  $lh: $height/2; 
+
+@mixin sizes ($wid, $hei){
+  width: $wid;
+  height: $hei;
+}
+@mixin format ($mar, $pad){
+  margin: $mar;
+  padding: $pad;
+}
+
+#paragraph{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-align-last: center;
+}
+.product img{
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+.product img:hover{
+  opacity: 0.9;
+}
+/* ----------INDEX START----------- */
+#bvideo {
+  @include sizes(100%, auto );
+  object-fit: cover;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.index_banner{
+text-align: center;
+position: relative;
+top: -40vw;
+height: $height;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.35);
+}
+.index_banner h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: $lh;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-shadow: 1px 3px 10px rgb(0, 0, 0) ;
+  line-height: $height;
+}
+body{
+  background-color: white;
+}
+#main_index{
+  width: 100%;
+  overflow: hidden;
+}
+.main_index-div{
+  height: 55vw;
+}
+#index_section_contactnow{
+  background-color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+#index_section_contactnow div{
+  padding: 20px;
+}
+#index_section_contactnow-p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px; 
+  margin-bottom: 70px;
+}
+#index_section_contactnow p{
+  @extend #index_section_contactnow-p;
+  margin-bottom: 0 !important;
+}
+section button a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+section button a:hover{
+  color: $color2 !important;
+}
+section button{
+  @include sizes(200px, 55px );
+  padding: 10px 10px;
+  text-align: center;
+  border: 2px solid black !important;
+}
+.contact_button:hover{
+  transform: scale(1.05);
+  transition: all 0.4s;
+  background-color: rgb(240, 240, 240);
+}
+
+.link{
+  text-decoration: underline;
+  color: $color2;
+}
+.link:hover{
+  color: $color1;
+}
+/* ----------INDEX END----------- */
+
+
+/* -------------------HEADER START-------------- */
+.header1{
+  width: 100%;
+}
+.logomb:hover{
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+nav{
+    background-color: $color5;
+}
+nav ul li a{
+  font-size: 20px;
+  color: white !important;
+}
+nav ul li a:hover{
+    color: rgb(177, 177, 177) !important;
+}
+/* -------------------HEADER END-------------- */
+
+
+/* -------------------FOOTER START-------------- */
+.footer1{
+  background-color: rgba(0, 18, 182, 0.03);
+  margin-top: 30px;
+}
+.footer2{
+    background-color: $color5;
+    color: #fff;
+}
+/* -------------------FOOTER END-------------- */
+
+  
+/* -------------------ABOUT.HTML START-------------- */
+.h1_main{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  text-shadow: 1px 3px 10px gray ;
+  font-size: 70px;
+  width: 80%;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-bottom: 30px;
+  padding-right: 0;
+  color: #830a2b;
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+}
+@keyframes aparecer{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.about_article{
+  @extend #paragraph;
+  font-size: 25px;
+}
+.div_about{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+#main_about h2{
+  text-transform: capitalize;
+  @extend #paragraph;
+  font-weight: bold;
+}
+#img_about{
+  border: 3px solid black;
+  border-radius: 3%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @include sizes(100%, auto );
+}
+/* -------------------ABOUT.HTML END-------------- */
+
+  
+/* -------------------MUSIC.HTML START-------------- */
+.video1{
+  padding: 20px;
+}
+.music_row{
+  margin-bottom: 30px !important;  
+}
+#music_soundcloud_p{
+   font-size: 30px;
+   text-align: justify;
+   overflow-wrap: break-word;
+   padding: 10px;
+ }
+#music_section_reviews{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+$reviews: (
+    review1: 1%,
+    review2: 5%,
+    review3: 13%,
+    review4: 20%,
+  );
+
+@each $review, $clr in $reviews{
+  .music--#{$review} {
+    @include sizes(300px, 200px);
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: darken($color: $color4, $amount: $clr);
+  }
+}
+
+/* -------------------MUSIC.HTML END-------------- */
+    
+
+/* -------------------CALCULATOR.HTML START-------------- */
+#theform {
+    display:inline-block;
+    padding:20px;
+    border:1px solid #666;
+    border-radius:10px;
+    background-color:#fff;
+    color:#666;
+    box-shadow:inset 0 0 20px #999,3px 3px 3px #666;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.calculator_text{
+   text-align: center;
+   padding: 20px;
+  }
+.sec_calculator p{
+   text-align: center;
+   width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 50px;
+  }
+.calculator_form{
+   text-align: center;
+   margin-top: 40px;
+  }
+.sec_calculator a{
+   text-decoration: none;
+  }
+#theform div {
+    margin:5px 0;
+  }
+#theform label {
+    display:inline-block;
+    width:200px;
+  }
+#main_calculator p{
+  font-size: 20px;
+  padding: 10px;
+}
+#main_calculator h2{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+/* -------------------CALCULATOR.HTML END-------------- */
+  
+
+/* -------------------CONTACT.HTML START-------------- */
+#contact_form{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  @include format(auto, 40px );
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 8%;
+  background-color: rgb(231, 231, 231);
+}
+.btn-contact{
+  margin-top: 10px;
+  background-color: $color1 !important;
+  border: $color5;
+  border-radius: 5px;
+  color: white !important;
+  padding: 3px;
+  font-size: 25px !important;
+}
+.btn-form{
+  @extend .btn-contact;
+  font-size: 15px !important;
+  }
+.btn-contact:hover{
+  transform: scale(1.05);
+  transition: all 0.6s;
+}
+.form-check-input:checked{
+  background-color: $color1 !important;
+}
+form label{
+  font-weight: bold;
+}
+/* -------------------CONTACT.HTML END-------------- */
+
+@import "_media"
