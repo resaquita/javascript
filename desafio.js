@@ -48,6 +48,13 @@ if (detalle == "si"){
     alert("muchas gracias")
 }
 
+for (const dom of productos){
+    let contenedor = document.createElement("div");
+    contenedor.innerHTML = `<h2> Nombre: ${dom.nombre} </h2>
+                            <p> Valor : ${dom.value} </p>`;
+document.body.appendChild(contenedor)
+}
+
 
       
 
